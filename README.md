@@ -1,82 +1,70 @@
-# 📊 Zomato Restaurant Analytics Dashboard (Power BI)
+# 📊 Zomato Restaurant Analytics Dashboard
 
 ## 📌 Overview
-This project analyzes global restaurant data from Zomato to uncover insights into restaurant distribution, customer ratings, costs, and cuisines. The dashboard enables interactive exploration of data across multiple geographical and business dimensions.
+This project presents an interactive Power BI dashboard analyzing global restaurant data from Zomato. It provides insights into restaurant distribution, customer ratings, pricing trends, and cuisine preferences to support data-driven decision-making.
 
 ---
 
 ## 🎯 Objective
-To build an interactive Power BI dashboard that helps stakeholders analyze restaurant performance, customer preferences, and global distribution trends.
+To design an interactive dashboard that enables stakeholders to explore restaurant performance, understand customer preferences, and identify trends across different countries and cities.
 
 ---
 
-## 🧰 Tools & Technologies
-- Microsoft Power BI
-- Power Query (Data Transformation)
-- DAX (Data Analysis Expressions)
-- Excel (Data Source)
+## 📂 Dataset
+The dataset consists of restaurant data across multiple countries, including:
+- Restaurant names and locations  
+- Cuisines  
+- Customer ratings  
+- Cost for two  
+- Online delivery and table booking availability  
+
+Source: Public Zomato dataset (Excel files)
 
 ---
 
-## 📁 Dataset
-The dataset consists of multiple Excel files containing restaurant data across different countries and continents.
+## 🛠 Tools & Technologies
+- Microsoft Power BI  
+- Power Query (Data Transformation)  
+- DAX (Data Analysis Expressions)  
+- Excel  
 
 ---
 
-## 🧹 Data Cleaning & Transformation
-- Corrected inconsistent city names (e.g., São Paulo, Istanbul)
-- Removed unnecessary columns
-- Created separate columns for restaurant name and address
-- Built a cuisine dimension table
-- Ensured unique country codes for proper relationships
+## 🔍 Data Preparation
+- Cleaned inconsistent city and country names  
+- Removed irrelevant columns  
+- Created structured fields for analysis  
+- Built relationships between tables  
+- Developed calculated measures using DAX  
 
 ---
 
-## 📊 Key Metrics (DAX Measures)
-- Total Restaurants
-- Average Cost
-- Average Rating
-- Cuisine Count
+## 📊 Key Insights
+- Restaurant ratings vary significantly across countries and cuisines  
+- Certain cuisines consistently receive higher customer ratings  
+- Cost for two differs widely across regions, indicating pricing disparities  
+- Urban locations have higher restaurant density and variety  
+- Availability of online delivery varies by region and impacts accessibility  
 
 ---
 
-## 📈 Dashboard Features
-
-### 🌍 Global Overview
-- Total restaurants worldwide
-- Country and city distribution
-- Drill-down capability
-
-### ⭐ Ratings Analysis
-- Average ratings by restaurant
-- Rating distribution with color coding
-
-### 💰 Cost Analysis
-- Restaurants with lowest and highest average cost
-
-### 🍽️ Cuisine Insights
-- Most popular cuisines
-- Cuisine distribution across regions
-
-### 🔍 Filters
-- Country, City
-- Online delivery / Table booking
-- Rating categories
+## 💡 Business Recommendations
+- Focus on high-performing cuisines in each region to maximize customer satisfaction  
+- Adjust pricing strategies based on regional cost patterns  
+- Expand online delivery services in high-demand areas  
+- Use location-based insights to identify expansion opportunities  
 
 ---
-
-## 📊 Outcome
-The dashboard enables data-driven decision-making by providing a comprehensive view of restaurant performance and customer preferences across regions.
-
----
-
-## 🚀 Skills Demonstrated
-- Data Cleaning and Transformation (Power Query)
-- Data Modeling
-- DAX Calculations
-- Interactive Dashboard Design
-- Business Data Analysis
 
 ## 📊 Dashboard Preview
 
 ![Overview](visuals/Dashboard.png)
+
+---
+
+## 🧠 Conclusion
+This dashboard provides a comprehensive view of global restaurant data, enabling businesses to identify trends, optimize pricing strategies, and improve customer experience through data-driven insights.
+
+---
+
+
